@@ -8,7 +8,7 @@ scikit-learn==0.20.1
 pydot==1.4.1
 
 # By default this project depends on the CPU version of TensorFlow:
-tensorflow==2.0.0
+tensorflow==tf-nightly-2.0-preview
 
 # but you can install the GPU version instead if you know what you are doing:
-#tensorflow-gpu==2.0.0
+#tensorflow-gpu==tf-nightly-gpu-2.0-preview
