@@ -6,6 +6,7 @@ Pillow==5.3.0
 pandas==0.23.4
 scikit-learn==0.20.1
 pydot==1.4.1
+graphviz==0.10.1
 
 # By default this project depends on the CPU version of TensorFlow:
 tensorflow==tf-nightly-2.0-preview
