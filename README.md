@@ -3,7 +3,7 @@ Deep Learning with TensorFlow 2 and Keras – Notebooks
 
 This project accompanies my **Deep Learning with TensorFlow 2 and Keras** trainings. It contains the exercises and their solutions, in the form of [Jupyter](http://jupyter.org/) notebooks.
 
-**WARNING**: TensorFlow 2 is not actually out yet. Hopefully this code will run fine once TF 2 is out. This is extreme bleeding edge stuff people! :)
+**WARNING**: TensorFlow 2.0 preview may contain bugs and may not behave exactly like the final 2.0 release. Hopefully this code will run fine once TF 2 is out. This is extreme bleeding edge stuff people! :)
 
 During the course itself, a URL will be provided for running the notebooks. You can participate in the course without installing anything local. If you prefer to work on a local installation, please follow the installation instructions below.
 
@@ -34,6 +34,9 @@ This course requires Python 3.5 or Python 3.6. TensorFlow does not support Pytho
 Another option is to download and install [Anaconda](https://www.continuum.io/downloads). This is a package that includes both Python and many scientific libraries. You should prefer the Python 3.5 or 3.6 version.
 
 ## Using Anaconda
+
+**Warning**: TensorFlow 2.0 preview is not available yet on Anaconda.
+
 If you chose to install Anaconda, you can optionally create an isolated Python environment dedicated to this course. This is recommended as it makes it possible to have a different environment for each project (e.g. one for this course), with potentially different libraries and library versions:
 
     $ conda create -n tf2course python=3.6 anaconda
