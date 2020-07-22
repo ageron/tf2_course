@@ -1,19 +1,11 @@
+Pillow==7.2.0
+graphviz==0.14.1
 jupyter==1.0.0
-matplotlib==3.0.3
-numpy==1.16.2
-scipy==1.2.1
-Pillow==6.2.0
-pandas==0.24.1
-scikit-image==0.14.2
-scikit-learn==0.20.3
+matplotlib==3.3.0
+numpy==1.19.1
+pandas==1.0.5
 pydot==1.4.1
-graphviz==0.10.1
-
-# By default this project depends on the CPU version of TensorFlow:
-tf-nightly-2.0-preview
-
-# but you can install the GPU version instead if you know what you are doing:
-#tf-nightly-gpu-2.0-preview
-
-tb-nightly
-
+scikit-image==0.17.2
+scikit-learn==0.23.1
+scipy==1.5.1
+tensorflow==2.2.0
