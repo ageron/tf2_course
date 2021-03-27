@@ -1,0 +1,28 @@
+name: tf2
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - ipython=7.20 # a powerful Python shell
+  - jupyter=1.0 # to edit and run Jupyter notebooks
+  - matplotlib=3.3 # beautiful plots. See tutorial tools_matplotlib.ipynb
+  - nbdime=2.1 # optional tool to diff Jupyter notebooks
+  - numpy=1.19 # Powerful n-dimensional arrays and numerical computing tools
+  - pandas=1.2 # data analysis and manipulation tool
+  - pillow=8.1 # image manipulation library, (used by matplotlib.image.imread)
+  - pip # Python's package-management system
+  - python=3.7 # Python! Not using latest version as some libs lack support
+  - requests=2.25 # for REST API queries
+  - scikit-learn=0.24 # machine learning library
+  - scipy=1.6 # scientific/technical computing library
+  - transformers=4.3 # Natural Language Processing lib for TF or PyTorch
+  - wheel # built-package format for pip
+  - widgetsnbextension=3.5 # interactive HTML widgets for Jupyter notebooks
+  - pip:
+    - tensorboard-plugin-profile==2.4.0 # profiling plugin for TensorBoard
+    - tensorboard==2.4.1 # TensorFlow's visualization toolkit
+    - tensorflow-addons==0.12.1 # for seq2seq impl.
+    - tensorflow-datasets==3.0.0 # datasets repository, ready to use
+    - tensorflow-hub==0.9.0 # trained ML models repository, ready to use
+    - tensorflow-serving-api==2.4.1 # Optional 
+    - tensorflow==2.4.1 # Deep Learning library
