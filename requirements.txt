@@ -1,11 +1,43 @@
-Pillow==7.2.0
-graphviz==0.14.1
+# TensorFlow is much easier to install using Anaconda, especially
+# on Windows or when using a GPU. Please see the installation
+# instructions in INSTALL.md
+
+
+##### Core scientific packages
 jupyter==1.0.0
-matplotlib==3.3.0
-numpy==1.19.1
-pandas==1.0.5
-pydot==1.4.1
-scikit-image==0.17.2
-scikit-learn==0.23.1
-scipy==1.5.1
-tensorflow==2.2.0
+matplotlib==3.3.4
+numpy==1.19.5
+pandas==1.2.2
+scipy==1.6.0
+
+##### Machine Learning packages
+scikit-learn==0.24.1
+
+##### TensorFlow-related packages
+
+# If you have a TensorFlow compatible GPU, with CUDA Compute Capability 3.5
+# support or higher, you must install CUDA, cuDNN and more: see
+# tensorflow.org for the detailed installation instructions.
+
+tensorflow==2.4.1
+# Optional: the TF Serving API library is just needed for chapter 19.
+tensorflow-serving-api==2.4.1
+
+tensorboard==2.4.1
+tensorboard-plugin-profile==2.4.0
+tensorflow-datasets==3.0.0
+tensorflow-hub==0.9.0
+
+##### Image manipulation
+Pillow==8.1.2
+pydot
+graphviz
+
+##### Additional utilities
+
+# Easy http requests
+requests==2.25.1
+
+# Nice utility to diff Jupyter Notebooks.
+nbdime==2.1.0
+
