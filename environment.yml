@@ -3,6 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - graphviz # for dot files
   - ipython=7.20 # a powerful Python shell
   - jupyter=1.0 # to edit and run Jupyter notebooks
   - matplotlib=3.3 # beautiful plots. See tutorial tools_matplotlib.ipynb
@@ -12,6 +13,7 @@ dependencies:
   - pillow=8.1 # image manipulation library, (used by matplotlib.image.imread)
   - pip # Python's package-management system
   - python=3.7 # Python! Not using latest version as some libs lack support
+  - python-graphviz # for dot files
   - requests=2.25 # for REST API queries
   - scikit-learn=0.24 # machine learning library
   - scipy=1.6 # scientific/technical computing library
