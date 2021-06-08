@@ -29,7 +29,7 @@ tensorflow-datasets==3.0.0
 tensorflow-hub==0.9.0
 
 ##### Image manipulation
-Pillow==8.1.2
+Pillow==8.2.0
 pydot
 graphviz
 
