@@ -19,7 +19,7 @@ scikit-learn==0.24.1
 # support or higher, you must install CUDA, cuDNN and more: see
 # tensorflow.org for the detailed installation instructions.
 
-tensorflow==2.5.3
+tensorflow==2.6.4
 # Optional: the TF Serving API library is just needed for chapter 19.
 tensorflow-serving-api==2.4.1
 
