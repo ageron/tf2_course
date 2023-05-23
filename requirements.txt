@@ -36,7 +36,7 @@ graphviz
 ##### Additional utilities
 
 # Easy http requests
-requests==2.25.1
+requests==2.31.0
 
 # Nice utility to diff Jupyter Notebooks.
 nbdime==2.1.1
